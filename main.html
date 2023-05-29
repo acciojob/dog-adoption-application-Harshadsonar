@@ -3,14 +3,40 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <form action="#" method="post">
+        <div class="form-action">
+            <label for="name" id="name">Name</label><br>
+            <input type="text" id="name" placeholder="Name"><br>
+        </div>
+        <div class="form-action">
+            <label for="phone" id="phone">Phone Number</label><br>
+            <input type="text" id="phone" placeholder="Phone Number"><br>
+        </div>
+        <div class="form-action">
+            <label for="address" id="address">Address</label><br>
+            <input type="text" id="address" placeholder="Address"><br>
+        </div>
+        <div class="form-action">
+            <label for="checkbox" id="checkbox">Have you ever lived with a Dog before?</label><br>
+            <input type="checkbox" id="checkbox"><br>
+        </div>
+        <div class="form-action">
+            <label for="multiselect">Please select your preferred breeds</label><br>
+            <select id="multiselect">
+			<option value="Bulldog">Bulldog</option>
+			<option value="Poodle">Poodle</option>
+			<option value="German Shepherd">German Shepherd</option>
+		</select>
+        </div>
+        <div class="form-action">
+            <button id="submit" type="submit" value="submit">Submit</button>
 
+        </div>
+    </form>
 </body>
 
 </html>
